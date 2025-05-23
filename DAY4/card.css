@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to right, #adc9f5, #638ab6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.visiting-card {
+  background-color: #ebc59c;
+  color: #333;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 500px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.visiting-card:hover {
+  transform: scale(1.02);
+}
+
+.visiting-card h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #2a2a2a;
+}
+
+.title {
+  font-size: 1.1em;
+  color: #5e5e5e;
+  margin: 5px 0;
+}
+
+.company {
+  font-size: 1em;
+  color: #4f2626;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin: 5px 0;
+  font-size: 0.95em;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .visiting-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .visiting-card h1 {
+    font-size: 1.5em;
+  }
+}

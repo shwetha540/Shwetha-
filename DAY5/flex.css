@@ -1,0 +1,45 @@
+.main{
+  align-content: center;
+  padding: 500px;
+}
+.container{
+    padding: 10px;
+    display: grid;
+    height: 80vh;
+    width: 39vw;
+    flex-direction: row;
+    border: 5px solid rgb(10, 10, 10);
+    border-radius: 400px;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(5, 249, 249);
+    grid-template-rows: max-content;
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(219, 186, 239);
+    border: 3px solid rgb(162, 151, 235);
+    border-radius: 250px;
+      font-family: "Lilita One", sans-serif;
+}
+
+.white{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(139, 209, 47);
+    border: 3px solid rgb(193, 188, 233);
+    border-radius: 5px;
+      font-family: "Lilita One", sans-serif    
+}
+.q{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(17, 241, 170);
+    border: 3px solid rgb(77, 58, 224);
+    border-radius: 5px;
+      font-family: "Lilita One", sans-serif
+}
